@@ -1,0 +1,23 @@
+{
+  "input": {
+    "blender_file": "D:/Projeler/DataSetGenerator/BlenderModels/Blender 5.2/plain_surface_metallic_dualcam.blend"
+  },
+  "output": {
+    "folder": "D:/Projeler/DataSetGenerator/RenderedImages",
+    "dataset_name": "DualCamTest",
+    "image_width": 4096,
+    "image_height": 2048,
+    "image_format": "PNG",
+    "max_samples": 16,
+    "defects_per_image": 4,
+    "create_image_diff_masks": true,
+    "create_depth_diff_masks": true,
+    "create_depth_maps": true,
+    "create_normal_maps": true,
+    "create_defect_bump": true,
+    "create_defect_dent": false,
+    "create_defect_gouge": false,
+    "create_defect_scratch": false,
+    "create_defect_orange_peel": false
+  }
+}
